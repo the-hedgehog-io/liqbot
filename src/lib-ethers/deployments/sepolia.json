@@ -1,0 +1,20 @@
+{
+  "chainId": 11155111,
+  "version": "a0948b633b21ca147471a705e2d07f825f2f2292",
+  "deploymentDate": 1696838376000,
+  "bootstrapPeriod": 1209600,
+  "totalStabilityPoolHOGReward": "32000000",
+  "liquidityMiningHOGRewardRate": "0.257201646090534979",
+  "_priceFeedIsTestnet": false,
+  "_isDev": false,
+  "startBlock": 4455303,
+  "addresses": {
+    "stabilityPool": "0xF4901386800148dA6EC4d189b12a9C4eFf540d42",
+    "activePool": "0x15593eBcF13e989C13eD154318D2Bf49E6EcEA9f",
+    "defaultPool": "0x9d5eEAe42F14e357129a2077aD6820fEA9A6F17a",
+    "troveManager": "0x638BB2882987f0cA6Bcc254Fbc0ECd386f454be5",
+    "priceFeed": "0x33c09bd4C7cE931De727C5063719934b02DB5bFE",
+    "sortedTroves": "0xD1Df2Fd1c38D4c537AA7eE197643A7a3fA54b57a",
+    "multiTroveGetter": "0xFaA5CEE2413bb76c225537d6452055c173D4698f"
+  }
+}

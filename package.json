@@ -1,0 +1,53 @@
+{
+  "name": "liquity-liqbot",
+  "version": "0.0.1-semantic-release",
+  "description": "Simple liquidation bot for Hedgehog",
+  "keywords": [
+    "Liquity",
+    "Headgehog",
+    "DeFi",
+    "Ethereum"
+  ],
+  "homepage": "https://github.com/the-hedgehog-io/liqbot",
+  "author": "Ivan Timoshenko <dev@thehedgehog.io>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --loader ts-node/esm src/index.ts",
+    "lint": "eslint . --ext .ts,.tsx --config .eslintrc.json --fix"
+  },
+  "eslintIgnore": [
+    "build/"
+  ],
+  "dependencies": {
+    "@ethersproject/abstract-provider": "5.7.0",
+    "@ethersproject/bignumber": "5.7.0",
+    "@ethersproject/bytes": "5.7.0",
+    "@ethersproject/contracts": "5.7.0",
+    "@ethersproject/providers": "5.7.2",
+    "@flashbots/ethers-provider-bundle": "^0.4.2",
+    "@liquity/providers": "^1.0.1",
+    "chalk": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.5.2",
+    "ws": "^8.3.0"
+  },
+  "devDependencies": {
+    "@microsoft/api-extractor": "7.13.2",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.5.12",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.4.1",
+    "eslint-plugin-tsdoc": "0.2.11",
+    "fast-check": "2.13.0",
+    "mocha": "8.3.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "packageManager": "yarn@4.3.1"
+}
