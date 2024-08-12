@@ -1,4 +1,4 @@
-# `Hedgehog Protocal Liquidator Bot`
+# `Hedgehog Protocol Liquidator Bot`
 
 A liquidation bot for Hedgehog Protocol.
 
